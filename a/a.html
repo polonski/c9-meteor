@@ -1,0 +1,80 @@
+<head>
+  <title>a</title>
+</head>
+
+
+<body class="fullbleed layout">
+ 
+  {{> hello}}
+</body>
+
+<template name="hello">
+
+
+
+  <paper-drawer-panel  id="drawer-panel">
+      
+      
+      <div drawer>
+      
+			<paper-toolbar>
+
+				  <paper-icon-button id="menu-button" icon="menu" paper-drawer-toggle raised></paper-icon-button>
+		
+			</paper-toolbar>
+			
+			
+			<div> drawer insides</div>
+      
+      
+      </div><!-- drawer -->
+      
+      
+      
+      <div main>
+
+
+ 
+      		<paper-toolbar>
+
+		 		<paper-icon-button id="menu-button"  icon="menu"  paper-drawer-toggle raised></paper-icon-button>
+			  
+	   			<div class="flex"></div>
+		 
+				 <paper-icon-button id="fullscreen-btn"  icon="fullscreen"></paper-icon-button>
+		
+  
+	
+			</paper-toolbar>
+
+
+
+  			 <div class="container horizontal layout flex-1">		
+  	 
+  	 
+  	 
+  	 
+		  			<div self-start id="polar-clock" class="title">
+		  			
+		  			
+		  			
+		  				pressed it {{counter}} times.
+		  			
+		  			
+		  			
+		  			
+		  			
+		  			</div>
+		  			
+		  			
+		  			
+		  			
+  			</div>
+  			
+  		</div>
+  	
+  	</paper-drawer-panel>
+
+  
+
+</template>
