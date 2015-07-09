@@ -22,7 +22,8 @@ my attepts at polymer inside meteor on c9.io. Curiously this workis inside c9.io
  * let meteor start and add paper-elements 
 
 ## working?
-This works in the browser preview pane inside the c9.io IDE, but it does not work using any 'real' browser.
+~~This works in the browser preview pane inside the c9.io IDE, but~~ it does not work using any 'real' browser.
+ 
 
 ## demo
 a running version of this demo is here https://meteor-polonski.c9.io/
