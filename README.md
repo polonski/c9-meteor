@@ -1,5 +1,5 @@
 # c9-meteor
-my attepts at polymer inside meteor on c9.io. Curiously this workis inside c9.io IDE preview browser, but not any 'real' browser. The main thing I'm trying to fire up inside meteor is the ```paper-drawer-panel``` . 
+my attepts at polymer inside meteor on c9.io. The main thing I'm trying to fire up inside meteor is the ```paper-drawer-panel``` . 
 
 ## install / repro sequence
 - ``` > meteor create a ```
