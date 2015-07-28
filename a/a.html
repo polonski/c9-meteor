@@ -1,11 +1,18 @@
 <head>
   <title>a</title>
+   <!--link rel="import" href="bower_components/iron-icon/iron-icon.html">
+   
+   
+   <link rel="import" href="bower_components/iron-icons/iron-icons.html">
+   <link rel="import" href="bower_components/paper-drawer-panel/paper-drawer-panel.html"-->
+
 </head>
 
 
 <body class="fullbleed layout">
  
   {{> hello}}
+  
 </body>
 
 <template name="hello">
@@ -19,7 +26,7 @@
       
 			<paper-toolbar>
 
-				  <paper-icon-button id="menu-button" icon="menu" paper-drawer-toggle raised></paper-icon-button>
+				 <paper-icon-button id="menu-button" icon="menu" paper-drawer-toggle raised></paper-icon-button>
 		
 			</paper-toolbar>
 			
@@ -37,7 +44,7 @@
  
       		<paper-toolbar>
 
-		 		<paper-icon-button id="menu-button"  icon="menu"  paper-drawer-toggle raised></paper-icon-button>
+		 		<paper-icon-button id="menu-button"  icon="menu" paper-drawer-toggle></paper-icon-button>
 			  
 	   			<div class="flex"></div>
 		 
@@ -49,27 +56,57 @@
 
 
 
-  			 <div class="container horizontal layout flex-1">		
+  	 		<paper-flex-layout  class="vertical self-start layout wrap">
   	 
-  	 
-  	 
-  	 
-		  			<div self-start id="polar-clock" class="title">
+				  		
+				  		
+				  		
+				  			<div self-start id="polar-clock" class="horizontal layout center center-justified">
+				  			
+				  			
+				  			
+				  							pressed it {{counter}} times.
+				  			
+				  			
+				  			
+				  			
+				  			
+				  			</div>
+				  			
+				  			
+				  			
+				  			
+				  			<div   id="control-panel" class="self-stretch">
+				  			
+				  			
+				  			
+				  			
+				  						<div  class="horizontal center center-justified layout wrap">
+				  							
+				  							<div><iron-icon icon="timer"></iron-icon></div>
+				  							<div>01:50</div>
+				  							<div>/</div>
+				  							<div>02:00</div>
+				  							
+				  						</div>
+				  						
+				  						<div  class="horizontal around-justified layout wrap">
+				  							
+				  							<div>3</div>
+				  							<div>4</div>
+				  							<div>5</div>
+				  			
+				  						</div>
+				  			
+				  				
+				  			
+				  			</div>
+				  			
 		  			
 		  			
-		  			
-		  				pressed it {{counter}} times.
-		  			
-		  			
-		  			
-		  			
-		  			
-		  			</div>
-		  			
-		  			
-		  			
-		  			
-  			</div>
+		  	</paper-flex-layout>
+		  	
+		  	
   			
   		</div>
   	
@@ -78,3 +115,35 @@
   
 
 </template>
+
+
+
+
+
+<template name="counting-template">
+	
+	
+	
+</template>
+
+
+
+<template name="paused-template">
+	
+	
+	
+</template>
+
+
+<template name="ready-template">
+	
+	
+	
+</template>
+
+
+
+
+
+
+
