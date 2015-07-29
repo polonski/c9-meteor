@@ -1,6 +1,11 @@
 # c9-meteor
 my attepts at polymer inside meteor on c9.io. The main thing I'm trying to fire up inside meteor is the ```paper-drawer-panel``` . 
 
+bugs which relate to this issue are
+
+https://github.com/loneleeandroo/meteor-polymerize/issues/8
+https://github.com/Polymer/polymer/issues/1712
+
 ## install / repro sequence
 - ``` > meteor create a ```
 - ``` > cd a ```
