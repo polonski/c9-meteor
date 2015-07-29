@@ -7,33 +7,13 @@ my attepts at polymer inside meteor on c9.io. The main thing I'm trying to fire 
 
 ## install / repro sequence
 
-~~ - ``` > meteor create a ```
-- ``` > cd a ```
-- ``` > meteor add loneleeandroo:polymerize ```
-- ``` > meteor ```
+After initally trying to wrangle polymer elements using polymerize, I got rid of polymerize altogether and am now importing polymer elements directly in the a.html file
 
- * let meteor start and initialise polymerize
- * stop meteor 
- 
-- ``` > bower install --save PolymerElements/iron-elements#^1.0.0 ```
-- ``` > meteor ``` 
- 
- * let meteor start and add iron-elements
- * stop meteor
-
-- ``` > bower install --save PolymerElements/paper-elements#^1.0.0 ```
-- ``` > meteor ``` ~~
-- 
-* got rid of polymerize altogether and importing polymer elements in the a.html file
-
- * let meteor start and add paper-elements 
+However removing Polymerize has not made a difference and the issue is still happening. Polymerize is great for installing polymer, keeping the dependencies in ```bower.json```, which I like so I'll go back to that once this is sorted.
 
 ## cleanup
 I removed most of the dependencies from bower.json, leaving only what I need. Still can't get ```paper-drawer-panel``` to work, as the 'CSS can't be read' error shows only for this element. Others are working OK.
 
-## working?
-~~This works in the browser preview pane inside the c9.io IDE, but~~ it does not work using any 'real' browser.
- 
 
 ## demo
 a running version of this demo is here https://meteor-polonski.c9.io/
