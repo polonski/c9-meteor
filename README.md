@@ -6,7 +6,8 @@ my attepts at polymer inside meteor on c9.io. The main thing I'm trying to fire 
 - https://github.com/Polymer/polymer/issues/1712
 
 ## install / repro sequence
-- ``` > meteor create a ```
+
+~~ - ``` > meteor create a ```
 - ``` > cd a ```
 - ``` > meteor add loneleeandroo:polymerize ```
 - ``` > meteor ```
@@ -21,7 +22,9 @@ my attepts at polymer inside meteor on c9.io. The main thing I'm trying to fire 
  * stop meteor
 
 - ``` > bower install --save PolymerElements/paper-elements#^1.0.0 ```
-- ``` > meteor ```
+- ``` > meteor ``` ~~
+- 
+* got rid of polymerize altogether and importing polymer elements in the a.html file
 
  * let meteor start and add paper-elements 
 
